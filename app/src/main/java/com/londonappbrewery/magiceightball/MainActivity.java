@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("askButton", "Button has been pressed");
 
                 Random randomNumberGenerator = new Random();
-                int number = randomNumberGenerator.nextInt(4);
+                int number = randomNumberGenerator.nextInt(5);
                 ballDisplay.setImageResource(ballArray[number]);
                 }
         });
